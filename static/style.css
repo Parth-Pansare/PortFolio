@@ -1,0 +1,28 @@
+body {
+min-height:100vh;
+background: linear-gradient(135deg,#667eea,#764ba2);
+display:flex;
+justify-content:center;
+align-items:center;
+font-family:Arial;
+}
+
+.glass-box {
+position:relative;
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(15px);
+padding:50px;
+border-radius:20px;
+color:white;
+}
+
+.nav-btn {
+position:absolute;
+top:20px;
+right:30px;
+background:white;
+color:#764ba2;
+padding:8px 18px;
+border-radius:20px;
+text-decoration:none;
+}
